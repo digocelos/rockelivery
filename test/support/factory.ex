@@ -27,4 +27,12 @@ defmodule Rockelivery.Factory do
       id: "475a2d5d-890a-44a2-bbef-d66c153f6e5b"
     }
   end
+
+  def user_update_params_factory do
+    %{
+      "id" => "475a2d5d-890a-44a2-bbef-d66c153f6e5b",
+      "email" => "email2@email.com",
+      "age" => 27
+    }
+  end
 end
